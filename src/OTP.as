@@ -4,7 +4,7 @@ package {
   
   import flash.utils.ByteArray;
   
-  public class OTP {
+  public class OTP implements OTPInterface {
     private static const DIGITS_POWER: Array = [1,10,100,1000,10000,100000,1000000,10000000,100000000];
   
     private static var _secret: ByteArray;
